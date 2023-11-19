@@ -1,42 +1,99 @@
-.footer {
-  padding: 70px;
-  margin-left: 80px;
+.quick-links,
+.partners {
+  text-decoration: none;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
 }
+footer {
+  padding: 60px;
+  background-color: rgb(243, 236, 236);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: left;
+}
+.followus {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.buyerseller {
+  padding: 10px;
+  font-size: 23px;
+}
+.bottomline {
+  background-color: rgb(243, 236, 236);
+  padding: 1%;
+  text-align: center;
+  margin-top: -30px;
+}
+/* ================================================================ */
 .main {
   font-size: large;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .carouselcaption {
+  justify-content: center;
   text-align: left;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
   padding: 25px;
-  background-color: rgb(245, 242, 239, 0.7);
+  background-color: rgb(245, 242, 239, 0.5);
   color: black;
   border-radius: 10px;
   width: 100%;
-  max-width: 600px;
-  margin-right: 10%;
+  max-width: 700px;
+  margin-right: 20px;
 }
 
 .carouselimage {
-  filter: brightness(80%);
+  filter: brightness(70%);
 }
 
 p {
   font-size: 20px;
 }
-
+/* ===================================================== */
+.navbar-toggler {
+  padding: 0px;
+}
+.mx-auto {
+  color: black;
+  padding: 5px;
+  font-weight: bolder;
+}
+.logo {
+  width: 80px;
+  height: 40px;
+  padding-left: 10px;
+}
+.signup {
+  margin: 5px;
+  padding: 5px;
+  width: 90px;
+  background-color: black;
+}
+/* ===================================================== */
+.searchcontainer {
+  display: flex;
+}
 .search {
-  margin: auto;
-  border-radius: 5px;
   width: 400px;
   height: 40px;
+  border: 1px solid;
+  border-radius: 5px;
 }
 .search-result {
-  padding-top: 5px;
+  padding-top: 3px;
   max-width: 400px;
 }
+.sbuton {
+  height: 40px;
+}
+/* ====================================================== */
 .list {
   background-color: white;
   border: 1px solid black;
@@ -59,6 +116,7 @@ span {
   color: yellow;
   font-size: 35px;
 }
+/* ============================================= */
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -68,15 +126,58 @@ span {
 .cardleft,
 .cardmiddle,
 .cardright {
-  padding: 20px;
+  padding: 13px;
   text-align: center;
 }
+.card:hover {
+  box-shadow: 10px 7px 3px 1px rgba(15, 14, 14, 0.273);
+}
+.price {
+  padding: 4px;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: line-through;
+  font-size: large;
+}
+.discount {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: red;
+}
+.buynowbutton {
+  width: 130px;
+  color: white;
+  background-color: black;
+  border-radius: 6px;
+}
+.buynowbutton:hover {
+  background-color: red;
+  color: white;
+}
+.overflow {
+  position: relative;
+  overflow: hidden;
+}
+.imgsrc {
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+.imgsrc:hover {
+  transform: scale(1.15);
+}
+
+/* ============================================== */
 .review {
+  border: 1px solid yellow;
+  background: linear-gradient(
+    rgb(242, 242, 166),
+    rgb(245, 179, 179),
+    rgb(236, 210, 162)
+  );
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 20px 0;
+  margin: 20px 70px;
 }
 
 .reviewleft {
@@ -88,7 +189,12 @@ span {
   padding: 20px;
 }
 .types1 {
-  margin-top: -15px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.types2 {
+  margin-top: 50px;
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
@@ -103,6 +209,10 @@ span {
   width: 200px;
   height: 100px;
   border-radius: 7px;
+  box-shadow: 5px 7px 10px 1px rgba(15, 14, 14, 0.273);
+}
+.button1:hover {
+  box-shadow: 10px 8px 15px 1px rgba(15, 14, 14, 0.273);
 }
 .button2 {
   background-image: url(https://images.pexels.com/photos/164522/pexels-photo-164522.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
@@ -115,6 +225,10 @@ span {
   width: 200px;
   height: 100px;
   border-radius: 7px;
+  box-shadow: 5px 7px 10px 1px rgba(15, 14, 14, 0.273);
+}
+.button2:hover {
+  box-shadow: 10px 8px 15px 1px rgba(15, 14, 14, 0.273);
 }
 .button3 {
   background-image: url(https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
@@ -127,6 +241,10 @@ span {
   width: 200px;
   height: 100px;
   border-radius: 7px;
+  box-shadow: 5px 7px 10px 1px rgba(15, 14, 14, 0.273);
+}
+.button3:hover {
+  box-shadow: 10px 8px 15px 1px rgba(15, 14, 14, 0.273);
 }
 .button4 {
   background-image: url(https://images.pexels.com/photos/12617920/pexels-photo-12617920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
@@ -139,6 +257,10 @@ span {
   width: 200px;
   height: 100px;
   border-radius: 7px;
+  box-shadow: 5px 7px 10px 1px rgba(15, 14, 14, 0.273);
+}
+.button4:hover {
+  box-shadow: 10px 8px 15px 1px rgba(15, 14, 14, 0.273);
 }
 .button5 {
   background-image: url(https://images.pexels.com/photos/210617/pexels-photo-210617.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
@@ -151,15 +273,22 @@ span {
   width: 200px;
   height: 100px;
   border-radius: 7px;
+  box-shadow: 5px 7px 10px 1px rgba(15, 14, 14, 0.273);
+}
+.button5:hover {
+  box-shadow: 10px 8px 15px 1px rgba(15, 14, 14, 0.273);
 }
 .buttontext {
   color: white;
   background-color: rgb(21, 19, 18, 0.4);
 }
 
+.location {
+  display: flex;
+  justify-content: center;
+}
 @media (max-width: 768px) {
   .carouselcaption {
-    margin: 20px;
     padding: 15px;
   }
 }
