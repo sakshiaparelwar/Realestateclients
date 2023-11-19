@@ -61,7 +61,7 @@ function Onebhk() {
         />
         <FlatsCards
           img={
-            "https://images.pexels.com/photos/3935346/pexels-photo-3935346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           }
           Title={"1BHK home"}
           Text={
@@ -81,7 +81,7 @@ function Onebhk() {
       >
         <FlatsCards
           img={
-            "https://images.pexels.com/photos/3935346/pexels-photo-3935346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=600"
           }
           Title={"1BHK home"}
           Text={
@@ -92,7 +92,7 @@ function Onebhk() {
         />
         <FlatsCards
           img={
-            "https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            "https://images.pexels.com/photos/164558/pexels-photo-164558.jpeg?auto=compress&cs=tinysrgb&w=600"
           }
           Title={"1BHK home"}
           Text={
@@ -103,7 +103,7 @@ function Onebhk() {
         />
         <FlatsCards
           img={
-            "https://images.pexels.com/photos/8031875/pexels-photo-8031875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            "https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=600"
           }
           Title={"1BHK home"}
           Text={
@@ -114,7 +114,7 @@ function Onebhk() {
         />
         <FlatsCards
           img={
-            "https://images.pexels.com/photos/3935346/pexels-photo-3935346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            "https://images.pexels.com/photos/206172/pexels-photo-206172.jpeg?auto=compress&cs=tinysrgb&w=600"
           }
           Title={"1BHK home"}
           Text={
